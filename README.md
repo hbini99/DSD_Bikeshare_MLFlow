@@ -2,12 +2,11 @@
 
 Two analysts test two forecasting approaches for **tomorrow's total bike rentals**. Every training
 run is tracked in MLflow with its data period, input features and settings. The best model is
-registered under a name and only becomes the **champion** after it beats the planning rule
-operations already uses: *tomorrow's rentals = today's rentals*.
+registered under a name and only becomes the **champion** after it beats the benchmark planning rule
+operations is using: *tomorrow's rentals = today's rentals*.
 
 ## The problem
 
-- **Who needs it.** Capital Bikeshare's operations team plans staffing and fleet capacity each evening.
 - **The cost of getting it wrong.** Too low leaves the team unprepared for a busy day. Too high
   wastes operating cost.
 - **The constraint.** The forecast is made the evening before, so it may only use information
