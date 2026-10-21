@@ -1,0 +1,7 @@
+# created when you run the scripts - reproducible from code + data
+mlflow.db
+mlruns/
+__pycache__/
+*.pyc
+venv/
+.venv/
